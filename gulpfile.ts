@@ -447,7 +447,7 @@ const updateManifest = (cb: any) => {
 		});
 
 		fs.writeFileSync("package.json", JSON.stringify(packageJson, null, '\t'));
-		fs.writeFileSync(path.join(manifest.root, manifest.name), prettyProjectJson, "utf8");
+		//fs.writeFileSync(path.join(manifest.root, manifest.name), prettyProjectJson, "utf8");
 
 		return cb();
 	} catch (err) {

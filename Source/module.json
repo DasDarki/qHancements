@@ -3,9 +3,11 @@
 	"title": "qHancements",
 	"description": "qHancements adds enhancements to Foundry to make it nicer :D",
 	"version": "1.0.0",
-	"author": "DasDarki",
+	"authors": [{"name": "DasDarki"}],
 	"scripts": ["bundle.js"],
 	"styles": ["main.css"],
 	"languages": [],
-	"compatibility": "10"
+	"compatibility": "10",
+	"manifest": "https://raw.githubusercontent.com/DasDarki/qHancements/master/Source/module.json",
+	"download": "https://github.com/DasDarki/qHancements/releases/download/v1.0.0/module.zip"
 }

@@ -1,0 +1,11 @@
+{
+	"name": "dasdarki-qhancements",
+	"title": "qHancements",
+	"description": "qHancements adds enhancements to Foundry to make it nicer :D",
+	"version": "1.0.0",
+	"author": "DasDarki",
+	"scripts": ["bundle.js"],
+	"styles": ["main.css"],
+	"languages": [],
+	"compatibility": "10"
+}
